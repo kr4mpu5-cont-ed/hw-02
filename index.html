@@ -1,18 +1,74 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styles/style.css">
-
     <title>Nelan Schwartz</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  <!-- begin navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light mb-5 navBarBackgroundColor">
+      <span class="navbar-brand mb-1 h2"><h2>Nelan Schwartz</h2></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- ------------------------------------------- -->
+      <!-- can't get right align with collapse to work -->
+      <!--        d-flex justify-content-end??         -->
+      <!-- ------------------------------------------- -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+<!-- end navbar -->
+<!-- begin main content container -->
+  <div class="container containerAboutMe" style="border: 1px solid black;">
+      <div class="row">
+          <div class="col">
+            <div class="page-header mt-5">
+              <h2>About Me</h2>
+              <hr />
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-5">
+                <img src="assets/images/ns_750x780.jpg" class="img-fluid" style="float: left; margin-right: 25px;border: solid 1px #ccc" alt="Photo of Nelan Schwartz"/>
+              </div>
+              <div class="col-md-9">
+                  <p>Hello. I am an experienced technology leader, strategic thinker, problem solver, and lifelong learner. I
+                      believe that combining technology with good design, strategy, and business sense can benefit real
+                      people, that human-centric, cross-discipline teams produce the most desirable and sustainable outcomes.
+                  </p>
+                  <p>I have been creating digital products and services for 25 years, 19 in a professional consulting
+                      capacity. And I build teams to do the same. In that time, I and my teams have developed innovative
+                      technology solutions for numerous industries including food and beverage, insurance, consumer
+                      products,transportation, mobile and enterprise communications, entertainment, healthcare, and
+                      transportation, among others.</p>
+              </div>
+            </div>
+        </div>
+        </div>
+  </div>
+<!-- end main content container -->
+<!-- begin footer -->
+  <footer class="footer">
+      <div class="container">
+        <span>Copyright &copy; 2019 Nelan Schwartz</span>
+      </div>
+  </footer>
+<!-- end footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
