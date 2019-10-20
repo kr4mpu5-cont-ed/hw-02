@@ -2,4 +2,4 @@
 
 Personal website showcasing responsive design utilizing Bootstrap implementation
 
-For more information, fill out the form and get in touch!
+For more information, fill out the contact form and get in touch!
