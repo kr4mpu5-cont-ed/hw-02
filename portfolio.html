@@ -1,18 +1,72 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <title>Nelan Schwartz | Portfolio</title>
+  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/style.css">
-    
-    <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  <!-- begin navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light mb-5 navBarBackgroundColor">
+      <span class="navbar-brand mb-1 h2"><h2>Nelan Schwartz</h2></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- ------------------------------------------- -->
+      <!-- can't get right align with collapse to work -->
+      <!--        d-flex justify-content-end??         -->
+      <!-- ------------------------------------------- -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+<!-- end navbar -->
+<!-- begin main content container -->
+  <div class="container containerAboutMe">
+      <div class="row">
+          <div class="col">
+            <div class="page-header mt-5">
+              <h2>Portfolio</h2>
+              <hr />
+            </div>
+            <div class="row mb-5">
+              <div class="col">
+                
+                  <span class="containerGame"><a href="#hangman"><span class="tagGame">Hangman</span><img src="assets/images/game.png" class="img-fluid" alt="Photo of Hangman" /></a></span>
+                  <span class="containerGame"><a href="#rpggame"><span class="tagGame">RPG Game</span><img src="assets/images/game.png" class="img-fluid" alt="Photo of RPG Game" /></a></span>
+                  <br />
+                  <span class="containerGame"><a href="#triviagame"><span class="tagGame">Trivia Game</span><img src="assets/images/game.png" class="img-fluid" alt="Photo of Trivia Game" /></a></span>
+                  <span class="containerGame"><a href="#rutgersinfowidget"><span class="tagGame">Rutgers Info Widget</span><img src="assets/images/game.png" class="img-fluid" alt="Photo of Rutgers Info Widget" /></a></span>
+                  <br />
+                  <span class="containerGame"><a href="#rockpaperscissors"><span class="tagGame">Rock Paper Scissors</span><img src="assets/images/game.png" class="img-fluid" alt="Photo of Rock Paper Scissors" /></a></span>
+                  <span class="containerGame"><a href="#chess"><span class="tagGame">Chess</span><img src="assets/images/game.png" class="img-fluid" alt="Photo of Chess" /></a></span>
+
+              </div>
+            </div>
+        </div>
+        </div>
+  </div>
+<!-- end main content container -->
+<!-- begin footer -->
+  <footer class="footer">
+      <div class="container">
+        <span>Copyright &copy; 2019 Nelan Schwartz</span>
+      </div>
+  </footer>
+<!-- end footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

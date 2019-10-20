@@ -1,40 +1,58 @@
-
-
-
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-    position: relative;
-    min-height: 100%;
-  }
-  body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #9c9c9c;
-    /* font-size: 1.2em; */
-  }
-  .navBarBackgroundColor {
-    background-color: #eae7dc;
-  }
-  .containerAboutMe {
-    background-color: #eae7dc;
-  }
-  .footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
-    background-color: #eae7dc;
-  }
-  
-  
-  /* Custom page CSS
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #9c9c9c;
+  /* font-size: 1.2em; */
+}
+.navBarBackgroundColor {
+  background-color: #eae7dc;
+}
+.containerAboutMe {
+  background-color: #eae7dc;
+}
+.containerGame {
+  position: relative;
+}
+.tagGame {
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+  height: 2em;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+  background-color: #e98074;
+  padding-top: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.containerGame img {
+    border: solid 1px #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #eae7dc;
+}
+
+/* Custom page CSS
   -------------------------------------------------- */
-  /* Not required for template or sticky footer method. */
-  
-  /* .container {
+/* Not required for template or sticky footer method. */
+
+/* .container {
     width: auto;
     max-width: 680px;
     padding: 0 15px;
