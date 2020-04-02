@@ -15,4 +15,4 @@ You are required to submit the following:
 * [x] The URLs of the deployed applications
 * [x] The URLs of the GitHub repositories
 
-[deployed app](https://kr4mpu5.github.io/hw-02/)
+[deployed app](https://kr4mpu5-cont-ed.github.io/hw-02/)
